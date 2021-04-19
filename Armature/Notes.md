@@ -6,7 +6,7 @@
 6. Do this to all bones
 7. In pose mode, the armatures should move as one
 8. In object mode, select the armature as the active object and then select the mesh to go with the armature (you can do this by selecting the armature first and then pressing a to select everything else, or shift-selecting stuff and shift-select the armature last)
-9. right-click, parent, with-enveloped weights
+9. right-click, parent, automatic weights
 10. go to pose mode, the mesh should move with the armature
 
 
