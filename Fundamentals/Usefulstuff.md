@@ -64,3 +64,12 @@ Will document useful notes here.
 - exists to make it easier and more intuitive to use a rig
 
 **Parenting**
+- important part of the rigging process
+- parent-child relationship
+- child objects inherit transformations from its parent
+- child objects can have its own transformation
+- bascially, you move parent, the child also moves. You move child, the parent doesn't. 
+- parenting helps easily control transformations and pivot points during animations
+- examples: finger to hand, papers to a desk, leaves to a tree
+- select object as parent, then select object to parent. right-click/parent/object (ctrl-P) 
+- ignore previous bullet, this parents the wrong cube
