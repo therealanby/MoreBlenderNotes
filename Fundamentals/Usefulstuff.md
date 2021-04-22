@@ -73,3 +73,24 @@ Will document useful notes here.
 - examples: finger to hand, papers to a desk, leaves to a tree
 - select object as parent, then select object to parent. right-click/parent/object (ctrl-P) 
 - ignore previous bullet, this parents the wrong cube
+- do the same thing but select parent object last
+- yellow outline is more active than orange (yellow indicates last selected I think)
+- you can also change the parent - child relationship in object properties/relations 
+- a parent can have multiple children but a children can only have one parent
+- you can make parents of other parents
+- one parent will affect another parent which will also affect that parent's children
+- this parent to parent relation can be as long as you want but it cannot form a loop. This means that a child of a parent cannot parent the parent, grand-parent, or any of the parents that it is connected to
+- you can create an empty. They have only data about their own transformations and they don't show up in the render. 
+- used for organization and reference
+- useful to use as an invisible parent
+- example: every object in a classroom is parented to an empty. Moving the empty will move the entire scene
+- you can clear parent-child relation by selecting objects and unparenting in the context menu(right-click menu) or going into object properties and removing the relation
+
+**Armatures**
+- armature/rig/skeleton
+- made up of bones (individual moving parts of a skeleton)
+
+
+**Misc**
+- to make custom control thingies, go in object mode, create a circle mesh (not UV sphere) and edit it in edit mode a shape you want. 
+- in bone properties, go to viewport display, custom shape, and select the object as that mesh. If it's too big or small, scale it to bone length 
