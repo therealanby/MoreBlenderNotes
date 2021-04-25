@@ -139,7 +139,34 @@ Will document useful notes here.
 - you can change source axis to change what axis changes what
 - new constraint: limit distance - puts a limit on how far away an object can be from another object or how far an object has to be away(a leash/boundary basically)
 - maintain volume - will distort shape when scaling to preserve volume
-- 
+
+**Character rigging**
+
+
+**Export/Import file formats**
+- useful(.obj, .fbx, .dae(??))
+- 3D model export: .obj, and .fbx
+- Best is probably .fbx
+- collada/ .dae -  3d model, image, texture
+- alembic/ .abc - visual graphics and animation (scene)
+- universal scene description/ .usd - scenes I think (scene)
+- Stanford/ .ply - 3D data for 3D scanners (vertex/mesh and texture)
+- Stl/ .stl - standard triangle language. also used for 3D printing (triangle mesh)
+- FBX/ .fbx - 3D geometry and animation
+- glTF/ .glb - 3D scenes and models 
+- Wavefront/ .obj - vertex data (models)
+- X3D/ .x3d - 3D computer graphics 
+- Motion capture/ .bvh - motion capture for armature (rig animation I think)
+- curves/ .svg - curves
+- Toolpath/ .gcode - some programming thing (scripting??)
+- ______
+- just the mesh: .obj
+- also textures: .fbx
+- rig: .dae or .fbx
+- animation/keyframes: .bvh
+- shaders: .glb??
+- 2d scene: .svg 
+
 
 **Misc**
 - to make custom control thingies, go in object mode, create a circle mesh (not UV sphere) and edit it in edit mode a shape you want. 
