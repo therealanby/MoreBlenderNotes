@@ -118,9 +118,27 @@ Will document useful notes here.
 - constraints
   - copy location: an object with this constraint will have the same location as a chosen object at the specified axis. click x on influence to keep location data after removing constraint
   - limit location: does not depend on an object. Uses values inputted by user. restrains location of object to certain area. check for transform to make the true location also be limited
-
 - note about bones: work similarly. however, you can select individual bones as something to copy as a restraint [10:50 of this vid as example](https://www.youtube.com/watch?v=fx33sPEAZEk&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=32)
 - to add a bone as a constraint, add a bone constraint to constrain to individual bones rather than the whole armature object
+
+**Tracking Constraints**
+- tracking constraints make one object point to another object in some way
+- track to will track an object to another object by making one of its axis point to the other object (one use of this is to make another object "look" at another object)
+- lock track will track an object to another object but only along one axis
+- stretch to will make the object stretch or contract base on its location to the selected object
+- damped track is similar to track to but with less options and smoother tracking
+- clamp to only works with curves. Clamps/limits object location to the curve. Useful for keeping an object on a certain path during animation
+
+**Transform Constraints**
+- copy location - if the location of one object is changed, the other object will change in a certain way
+- copy scale - if one object is scaled, the other object will scale in a certain way 
+- copy rotate - if one object is rotated, the other object will also rotate in a specified way 
+- If you want to get really unique and have the location/rotation/scale affect the location/rotation/scale of another object, use the constraint transformation
+- you can map from the selected object to the target object. You can select location/rotation/scale to affect the location/rotation/scale. There is a min and max put in place for both to control how much movement/rotation/scaling will affect the other object
+- select extrapolate to remove limit and just keep ratio
+- you can change source axis to change what axis changes what
+- new constraint: limit distance - puts a limit on how far away an object can be from another object or how far an object has to be away(a leash/boundary basically)
+- maintain volume - will distort shape when scaling to preserve volume
 - 
 
 **Misc**
