@@ -120,6 +120,8 @@ Will document useful notes here.
   - limit location: does not depend on an object. Uses values inputted by user. restrains location of object to certain area. check for transform to make the true location also be limited
 
 - note about bones: work similarly. however, you can select individual bones as something to copy as a restraint [10:50 of this vid as example](https://www.youtube.com/watch?v=fx33sPEAZEk&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=32)
+- to add a bone as a constraint, add a bone constraint to constrain to individual bones rather than the whole armature object
+- 
 
 **Misc**
 - to make custom control thingies, go in object mode, create a circle mesh (not UV sphere) and edit it in edit mode a shape you want. 
