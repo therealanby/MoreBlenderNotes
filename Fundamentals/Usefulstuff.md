@@ -141,7 +141,10 @@ Will document useful notes here.
 - maintain volume - will distort shape when scaling to preserve volume
 
 **Character rigging**
-
+- Add-ons/rigging: rigify
+- This add on adds some armature templates
+- also adds rigify buttons in object data properties
+- generate rig creates constraints, bone shapes and other advanced tools automatically
 
 **Export/Import file formats**
 - useful(.obj, .fbx, .dae(??))
