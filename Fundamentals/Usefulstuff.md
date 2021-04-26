@@ -145,6 +145,8 @@ Will document useful notes here.
 - This add on adds some armature templates
 - also adds rigify buttons in object data properties
 - generate rig creates constraints, bone shapes and other advanced tools automatically
+- the rig generated is based off the armature you made. You can delete the armature now, it was made mostly for reference for the auto-rig
+- parent the mesh to the generated rig. It doesn't have any bones because the look is changed into those widget/gizmo/thingies. You move around those thingies to change the mesh
 
 **Export/Import file formats**
 - useful(.obj, .fbx, .dae(??))
