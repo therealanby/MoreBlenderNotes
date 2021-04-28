@@ -192,7 +192,19 @@ Topics:
 
 ### Inverse Kinematics 
 [link](https://www.youtube.com/watch?v=S-2v_CKmVE8&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=36)
-- d
+- Inverse Kinematics(IK) is an important bone constraint
+- makes moving limbs and other joints very intuitive
+- IK is opposite of forward kinematics(FK)
+- bone chains work with FK by default
+- FK: moving parent, moves child. Transformations are applied forward down the chain(head to tail)
+- IK is when the child bone have influence over its parent bone in some way
+- press N and select auto-IK in pose options to see IK in action
+- example of IK application: moving the hand(child bone) upwards, the parent bones will also move upwards. In FK, the hand will just rotate up
+- auto-IK is nice for quick posing but doesn't give full control
+- Have to use IK bone constraint to set it up
+- steps:
+  1. d
+  2. d
 
 ### Misc
 - to make custom control thingies, go in object mode, create a circle mesh (not UV sphere) and edit it in edit mode a shape you want. 
