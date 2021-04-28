@@ -17,7 +17,7 @@ Topics:
 - [Character rigging](#Character-rigging)
 - [Export/Import file formats](#Export/Import-file-formats)
 - [Inverse Kinematics](#Inverse-Kinematics)
-- [Mis](#misc)
+- [Misc](#misc)
 
 ### UV Editing
 - uv editing workspace
@@ -191,6 +191,7 @@ Topics:
 - 2d scene: .svg 
 
 ### Inverse Kinematics 
+[link](https://www.youtube.com/watch?v=S-2v_CKmVE8&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=36)
 - 
 
 ### Misc
