@@ -2,8 +2,9 @@ Too lazy to create new files for each category.
 Will document useful notes here. 
 
 Topics:
-[UV Editing](#UVEditing)
-[Render Settings](#RenderSettings)
+[UV Editing](#UV-Editing)
+
+[Render Settings](#Render-Settings)
 
 ### UV Editing
 - uv editing workspace
@@ -29,7 +30,7 @@ Topics:
 - lots of settings mess around with them in viewport shading
 - tile settings (CPU rendering: 64 x 64; GPU rendering: 256 x 256)
 
-**Render Settings**
+### Render Settings
 - Ambient Occlusion: makes 3d shadows feel more real
 - Bloom: glow (color, glow threshold)
 - Depth of Field: real life camera effect. Blurred background from focal point (have to select this in camera properties and not render)
