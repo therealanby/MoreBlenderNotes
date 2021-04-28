@@ -2,7 +2,7 @@ Too lazy to create new files for each category.
 Will document useful notes here. 
 
 Topics:
-[UV Editing](#UV Editing)
+[UV Editing](#UVEditing)
 
 ### UV Editing
 - uv editing workspace
