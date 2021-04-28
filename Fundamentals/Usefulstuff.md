@@ -1,7 +1,10 @@
 Too lazy to create new files for each category.
 Will document useful notes here. 
 
-**UV Editing**
+Topics:
+[UV Editing](#UV Editing)
+
+### UV Editing
 - uv editing workspace
 - when you select a face in edit mode, it will only show that face on the uv editor
 - in edit mode, there is an uv menu for unwrapping the mesh (useful ones are unwrap and smart uv project)
@@ -172,6 +175,8 @@ Will document useful notes here.
 - shaders: .glb??
 - 2d scene: .svg 
 
+**Inverse Kinematics**
+- 
 
 **Misc**
 - to make custom control thingies, go in object mode, create a circle mesh (not UV sphere) and edit it in edit mode a shape you want. 
