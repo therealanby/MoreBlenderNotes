@@ -3,6 +3,7 @@ Will document useful notes here.
 
 Topics:
 [UV Editing](#UVEditing)
+[Render Settings](#RenderSettings)
 
 ### UV Editing
 - uv editing workspace
