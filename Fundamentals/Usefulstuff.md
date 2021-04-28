@@ -192,7 +192,7 @@ Topics:
 
 ### Inverse Kinematics 
 [link](https://www.youtube.com/watch?v=S-2v_CKmVE8&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=36)
-- 
+- d
 
 ### Misc
 - to make custom control thingies, go in object mode, create a circle mesh (not UV sphere) and edit it in edit mode a shape you want. 
