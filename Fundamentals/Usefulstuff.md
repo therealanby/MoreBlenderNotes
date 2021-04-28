@@ -2,9 +2,22 @@ Too lazy to create new files for each category.
 Will document useful notes here. 
 
 Topics:
-[UV Editing](#UV-Editing)
-
-[Render Settings](#Render-Settings)
+- [UV Editing](#UV-Editing)
+- [Procedural Textures](#Procedural-Textures)
+- [Three point lighting](#Three-point-lighting)
+- [Render](#Render)
+- [Render Settings](#Render-Settings)
+- [Rigging](#Rigging)
+- [Rigging Process](#Rigging-process)
+- [Parenting](#Parenting)
+- [Armatures](#Armatures)
+- [Constraints](#Constraints)
+- [Tracking Constraints](#Tracking-Constraints)
+- [Transform Constraints](#Transform-Constraints)
+- [Character rigging](#Character-rigging)
+- [Export/Import file formats](#Export/Import-file-formats)
+- [Inverse Kinematics](#Inverse-Kinematics)
+- [Mis](#misc)
 
 ### UV Editing
 - uv editing workspace
@@ -13,10 +26,10 @@ Topics:
 - there are different unwrapping algorithms useful for certain meshes
 - you can mark seams as places to cut when unwrapping (mark seems in UV menu)
 
-**Procedural Textures**
+### Procedural Textures
 - textures that are generated using math
 
-**Three point lighting**
+### Three point lighting
 - one of the best ways to light something
 - three lights 
   - main/key light - defined light source (top-left corner usually)
@@ -25,7 +38,7 @@ Topics:
 - spot light is good for this
 - encase object with a cube to set up environment
 
-**Render**
+### Render
 - render and viewport sampling: more accurate shading render
 - lots of settings mess around with them in viewport shading
 - tile settings (CPU rendering: 64 x 64; GPU rendering: 256 x 256)
@@ -48,7 +61,7 @@ Topics:
   - watch out for clipping. It affects how the reflection is shown on the object (turn on clipping in light probe properties) 
 
 
-**Rigging**
+### Rigging
 - rigging is a process of turning static models into animated characters
 - definition: the act of assigning objects to another object so that the act of moving one object will affect the other
 - example: parenting one cube to another
@@ -59,7 +72,7 @@ Topics:
 - armature is another word for skeleton
 - place armatures inside a model like bones (connect them where joints should be)
 
-**Rigging process**
+### Rigging process
 - probably already took notes on this on a file somewhere in this repo
 - in edit mode, create the aramtures (press E to extend one from another)
 - in object mode, assign the armatures to the model with automatic weights
@@ -68,7 +81,7 @@ Topics:
 - the controller doesn't deform the mesh directly but controls another bone that does control the mesh. 
 - exists to make it easier and more intuitive to use a rig
 
-**Parenting**
+### Parenting
 - important part of the rigging process
 - parent-child relationship
 - child objects inherit transformations from its parent
@@ -91,7 +104,7 @@ Topics:
 - example: every object in a classroom is parented to an empty. Moving the empty will move the entire scene
 - you can clear parent-child relation by selecting objects and unparenting in the context menu(right-click menu) or going into object properties and removing the relation
 
-**Armatures**
+### Armatures
 - armature/rig/skeleton
 - made up of bones (individual moving parts of a skeleton)
 - create, edit and transform bones to animate them
@@ -117,7 +130,7 @@ Topics:
 - vertex groups is what the vertices are called and each bone has a group that they control
 - meshes will have an armature modifier
 
-**Constraints**
+### Constraints
 - allows simple and complex relationships to be formed between bones and objects
 - object and bone constraints (bone constraints are same as object but assigned to bones)
 - constraints
@@ -126,7 +139,7 @@ Topics:
 - note about bones: work similarly. however, you can select individual bones as something to copy as a restraint [10:50 of this vid as example](https://www.youtube.com/watch?v=fx33sPEAZEk&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=32)
 - to add a bone as a constraint, add a bone constraint to constrain to individual bones rather than the whole armature object
 
-**Tracking Constraints**
+### Tracking Constraints
 - tracking constraints make one object point to another object in some way
 - track to will track an object to another object by making one of its axis point to the other object (one use of this is to make another object "look" at another object)
 - lock track will track an object to another object but only along one axis
@@ -134,7 +147,7 @@ Topics:
 - damped track is similar to track to but with less options and smoother tracking
 - clamp to only works with curves. Clamps/limits object location to the curve. Useful for keeping an object on a certain path during animation
 
-**Transform Constraints**
+### Transform Constraints
 - copy location - if the location of one object is changed, the other object will change in a certain way
 - copy scale - if one object is scaled, the other object will scale in a certain way 
 - copy rotate - if one object is rotated, the other object will also rotate in a specified way 
@@ -145,7 +158,7 @@ Topics:
 - new constraint: limit distance - puts a limit on how far away an object can be from another object or how far an object has to be away(a leash/boundary basically)
 - maintain volume - will distort shape when scaling to preserve volume
 
-**Character rigging**
+### Character rigging
 - Add-ons/rigging: rigify
 - This add on adds some armature templates
 - also adds rigify buttons in object data properties
@@ -153,7 +166,7 @@ Topics:
 - the rig generated is based off the armature you made. You can delete the armature now, it was made mostly for reference for the auto-rig
 - parent the mesh to the generated rig. It doesn't have any bones because the look is changed into those widget/gizmo/thingies. You move around those thingies to change the mesh
 
-**Export/Import file formats**
+### Export/Import file formats
 - useful(.obj, .fbx, .dae(??))
 - 3D model export: .obj, and .fbx
 - Best is probably .fbx
@@ -177,9 +190,9 @@ Topics:
 - shaders: .glb??
 - 2d scene: .svg 
 
-**Inverse Kinematics**
+### Inverse Kinematics 
 - 
 
-**Misc**
+### Misc
 - to make custom control thingies, go in object mode, create a circle mesh (not UV sphere) and edit it in edit mode a shape you want. 
 - in bone properties, go to viewport display, custom shape, and select the object as that mesh. If it's too big or small, scale it to bone length 
