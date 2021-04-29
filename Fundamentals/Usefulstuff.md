@@ -17,6 +17,7 @@ Topics:
 - [Character rigging](#Character-rigging)
 - [Export/Import file formats](#Export/Import-file-formats)
 - [Inverse Kinematics](#Inverse-Kinematics)
+- [Vertex Groups](#Vertex-Groups)
 - [Misc](#misc)
 
 ### UV Editing
@@ -212,7 +213,21 @@ Topics:
   6. change chain length to change how many bones are influenced
   7. a loop is kinda formed by now. That's why the arm is unstable. Cyclic dependency is what this is called. To change this: edit mode/clear parent
   8. new problem: hand can now be stretched away from arm. To work around this, reparent hand, duplicate hand bone, and unparent the duplicate. Then set the IK to the duplicate to have it act as a separate controller. Now you have one bone that is connected and can be moved around as a hand and one bone that is separate and acts as a controller of the forearm using IK. 
-  9. 
+  9. Another problem: hand has to now be rotated separately from the arm. Add a copy-rotation restraint(in pose mode) from the controller to the hand bone. 
+  10. Making the IK bone bigger or giving it a custom shape(change it in bone properties)is nice.
+  11. arm bends in the wrong way. In IK contraint options, set a pole target. The pole target is a reference object that the elbow/IK joint will try to point to as bones bend. Make a pole target(a bone is fine. It just references by position). Also if the bones are too straight, it will not know which direction to bend
+  12. Adjust pole angle value to make sure joint is pointed to the pole correctly
+
+### Vertex groups
+[link](https://www.youtube.com/watch?v=dKZrzG5r13g&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=36)
+- vertex groups are a groups of vertices that can be referenced for a variety of purposes
+- foundation of how a mesh and armature will interact with each other
+- each important bone in an armature will have a group of vertices assigned to it
+- allows bones of armatures to control a specific part of a complex mesh
+- also known as weights
+- weights also can control how much influence a bone have over certain vertices
+- select mesh, weigth paint mode
+- hotkeys: ctrl-Lclick to select bone region. g/r/s to transform. 
 
 ### Misc
 - to make custom control thingies, go in object mode, create a circle mesh (not UV sphere) and edit it in edit mode a shape you want. 
