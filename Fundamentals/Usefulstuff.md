@@ -18,6 +18,7 @@ Topics:
 - [Export/Import file formats](#Export/Import-file-formats)
 - [Inverse Kinematics](#Inverse-Kinematics)
 - [Vertex Groups](#Vertex-Groups)
+- [Bone Layers](#Bone-layers)
 - [Misc](#misc)
 
 ### UV Editing
@@ -228,6 +229,47 @@ Topics:
 - weights also can control how much influence a bone have over certain vertices
 - select mesh, weigth paint mode
 - hotkeys: ctrl-Lclick to select bone region. g/r/s to transform. 
+- make deformation made by bones more organic and natural
+- **how to make/change vertex groups?**
+- view vertex groups in object data properties in the properties tab
+- assigning automatic weights will create vertex groups automatically with proximity based weights
+- the auto generated vertex groups will be named after the bone it is associated with
+- in weight-paint mode, there are colors that represent bone influence
+  - blue = 0%
+  - green = 50%
+  - red = 100% (1.0/max value)
+- cycle through each group in object data tab to choose which one to display and edit
+- select both armature and mesh and go into weigh paint mode to see both. The armature is in pose mode and ctrl-Lclick to select specific bones
+- your cursor is now a circle. That is your brush
+- you can paint weights
+- different tools(press t to display) and tool settings to view tool(press n)
+- weight is amount of influence (1.0 = 100%, 0 = 0%)
+- strength for mixing (<1 to mix, 1 to completely replace)
+- press f to change radius of brush
+- options:
+  - 2D falloff - with frontfaces on, it will act as spray can. with it off, it will paint all the way through
+  - front faces only - only paint on front facing vertices (hidden faces will not be painted) (good for crevices or folds)
+- you can apply and remove weights in edit mode
+- tools
+  - blur - mix weights
+  - average - average weight percentages
+  - smear - smear weights to other areas
+  - gradient - makes a gradient and blends 
+  - sample - quickly select weights
+- uses
+  - modifiers
+  - particles
+  - physics
+  - more
+- steps: (time stamp start: 1:45)
+  1. make a cube
+  2. make an armature for the cube
+  3. parent with automatic weights
+  4. go to weight paint mode to view vertex groups (select a mesh first)
+
+### Bone layers
+[link](https://www.youtube.com/watch?v=MVl7FQw-x6M&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=37)
+- d
 
 ### Misc
 - to make custom control thingies, go in object mode, create a circle mesh (not UV sphere) and edit it in edit mode a shape you want. 
