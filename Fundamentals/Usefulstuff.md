@@ -18,7 +18,8 @@ Topics:
 - [Export/Import file formats](#Export/Import-file-formats)
 - [Inverse Kinematics](#Inverse-Kinematics)
 - [Vertex Groups](#Vertex-Groups)
-- [Bone Layers](#Bone-layers)
+- [Bone Layers and Groups](#Bone-layers-and-groups)
+- [Keyframes](#Keyframes)
 - [Misc](#misc)
 
 ### UV Editing
@@ -267,9 +268,34 @@ Topics:
   3. parent with automatic weights
   4. go to weight paint mode to view vertex groups (select a mesh first)
 
-### Bone layers
+### Bone layers and groups
 [link](https://www.youtube.com/watch?v=MVl7FQw-x6M&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=37)
-- d
+- bone layers for organization
+- layers is located in object data properties (green stick figure)
+- basically an outliner except a limited amound is allowed
+- used to control which bones show up in view
+- useful for complex rigs where organization is necessary
+- click to exclusively select a square and shift click to select multiple
+- small white dot indicates that there are bones present in that layer
+- enable the white dot squares to make those bones visible
+- to move bones into layers, go into pose mode
+  1. select bones in pose-mode
+  2. go to pose menu (top)
+  3. change bone layer option
+  4. a menu will pop up with the squares. Select the square(layers) which you want the bones to show up
+- only one square will have a filled white dot. That means that layer is where the last selected/active bone is
+- beginners don't have to worry about the protected layers
+- protected layers are used for importing and is used as reference/proxy
+- bone groups is located below bone layers
+- similar interface to vertex groups
+- plus button to add a new group
+- select group, select bones in pose mode, and assign
+- easy to select/deselect bones in that group
+- you can change the color of the groups for more visual clarity
+
+### Keyframes
+[link](https://www.youtube.com/watch?v=SZJswvw9wEs&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=38)
+- 
 
 ### Misc
 - to make custom control thingies, go in object mode, create a circle mesh (not UV sphere) and edit it in edit mode a shape you want. 
