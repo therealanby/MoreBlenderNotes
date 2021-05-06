@@ -20,6 +20,7 @@ Topics:
 - [Vertex Groups](#Vertex-Groups)
 - [Bone Layers and Groups](#Bone-layers-and-groups)
 - [Keyframes](#Keyframes)
+- [Timeline](#Timeline)
 - [Misc](#misc)
 
 ### UV Editing
