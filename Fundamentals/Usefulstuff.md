@@ -322,7 +322,7 @@ Topics:
 - middle click drag or ctrl+scrollwheel to pan timeline
 - right click/duplicate to duplicate keyframes
 - default interpolation in blender is a smooth ease in and out motion (slow transition of velocity)
-- 
+- 5:13
 
 ### Misc
 - to make custom control thingies, go in object mode, create a circle mesh (not UV sphere) and edit it in edit mode a shape you want. 
