@@ -295,6 +295,27 @@ Topics:
 
 ### Keyframes
 [link](https://www.youtube.com/watch?v=SZJswvw9wEs&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=38)
+- frames are still images. fps is number of frames per second shown in sequence
+- a sequence of frames create moving scene
+- keyframes are key frames in a moving image
+- these are set manually by a person 
+- keyframes are where key poses of the character lie
+- the frames between keyframes can be blended/interpolated automatically by the software (aka tweening)
+- keyframes bascially work the same for objects, bones, materials, and several other values
+- there are three keyframe editors: graph editor, dope sheet, and the timeline.
+- timeline is the default
+- to insert keyframe:
+  - right click/insert keyframe on a value (if it doesn't show up, then it can't be keyframed). the value will turn yellow, meaning that there is a keyframe for that value. The keyframe will also show up in the keyframe editor you're using
+- keyframes in an editor shown up as yellow shapes (usually squares but can be diamonds or circles)
+- loc/roc/scale is good keyframe option because it turns the location, rotation and scale of the object into a keyframe
+- white button in timeline to allow auto-keyframing. when you apply a transformation, a keyframe will automatically be generated
+- to insert more keyframes, move the frame of the timeline to a different position 
+- interpolation can be tweaked in the dope sheet or graph editor
+- select keyframes in the editor to delete them
+- keyframe type is another term for keyframe color. Used for organization
+
+### Timeline
+[link](https://www.youtube.com/watch?v=o19U-yPGdyY&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=39)
 - 
 
 ### Misc
