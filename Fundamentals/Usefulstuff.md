@@ -317,6 +317,11 @@ Topics:
 
 ### Timeline
 [link](https://www.youtube.com/watch?v=o19U-yPGdyY&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=39)
+- change end frame for quicker looping 
+- zoom on timeline with scroll wheel
+- middle click drag or ctrl+scrollwheel to pan timeline
+- right click/duplicate to duplicate keyframes
+- default interpolation in blender is a smooth ease in and out motion (slow transition of velocity)
 - 
 
 ### Misc
