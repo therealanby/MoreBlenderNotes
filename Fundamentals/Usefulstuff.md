@@ -21,6 +21,8 @@ Topics:
 - [Bone Layers and Groups](#Bone-layers-and-groups)
 - [Keyframes](#Keyframes)
 - [Timeline](#Timeline)
+- [Dope sheet](#Dope Sheet)
+- [Graph editor](#Graph Editor)
 - [Misc](#misc)
 
 ### UV Editing
@@ -322,7 +324,58 @@ Topics:
 - middle click drag or ctrl+scrollwheel to pan timeline
 - right click/duplicate to duplicate keyframes
 - default interpolation in blender is a smooth ease in and out motion (slow transition of velocity)
-- 5:13
+- easy way to change interpolation via handle types (more info in dope sheet and graph editor video)
+- select the frames to change and change handle to vector
+- animation done
+- slow-mo time
+- select all keyframes by pressing a
+- move playhead(that blue line thingy that indicates the current frame of the sequence) to the beginning and press s to scale the frames outwards
+- render is also based off the start and end frame of the timeline
+- click the stopwatch to enable preview range which will separate the render range(grey) from preview range(orange)
+- markers can be added with the marker menu(option for rename is also there). Markers can be used for adding notes on what to do at certain frames
+- red fps indicator means that playback speed is less than the actual fps (this is due to the heaviness of the scene caused by high poly counts, textures, and shaders)
+- go to playback dropdown menu in the timeline and change no sync(prioritize showing all details of a frame) to frame dropping(sync playback and actual frames at the cost of dropping a few frames/not showing some frames)
+- AV sync is the same but prioritize sync with audio rather than playback fps
+- adding audio: create a video editing workspace, place audio in the sequencer, and now, if the position of the audio and timeline line up, there should be audio
+- keying dropdown menu: will change how keyframes work in timeline
+- allow what channels can be keyed, insert/delete keyframes, and keyframe type
+
+### Dope Sheet
+[link](https://www.youtube.com/watch?v=LHdh8p37yM8&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=40)
+- dope sheet is a keyframe manlipulation tool
+- it works similarly to the timeline but is more detailed
+- you can access the dopesheet by horizontally splitting to create a new area or go to the animations workspace
+- most things involving keyframes can be done in the dopesheet plus some more features and better visual representation of keyframes
+- it's a good idea to use both because the timeline has a play button and option to change how much the playback would show
+- keyframes become different shapes based on the type
+  - auto-clamp: circle
+  - auto: circle with dot
+  - vector: square
+  - aligned: weird diamond
+  - free: diamond
+- change interpolation mode by pressing T (or go into the interpolation option in the context menu)
+- default interpolation is bezier: smooth change in velocity
+- another good interpolation mode is constant: blocky movement (frames will now snap with no movement in between)
+- this will create a line between the frames (indicate that interpolation is edited and where it's applied)
+- there are more keyframes because the dope sheet controls individual keyed elements of an object (rotation, location, scale, ...)
+- there are parent keyframes that edit the children keyframes below them(the children keyframes are usually hidden)
+- alt-LClick to choose a group of keyframes
+- you can create your own groups. Select channels, go to channel menu and select group. You can also ungroup here
+- the keyframes present by default are selected objects
+- to see all objects: turn off the button with the cursor on it. To also see hidden objects: turn on show hidden button
+- view menu: preview range for setting preview range in the dope sheet instead of timeline. show slider option allow you to see values in the dope sheet which you can adjust for each keyframe (useful because you don't have to go into properties for each object to change the value)
+- show curves extreme to show lows and highs of the animation
+- curves refer to interpolation curves. They can be edited directly in graph editor
+- ctrl-tab or select option in view menu to toggle graph editor
+- dope sheet is nice because you can edit keyframes without worrying about curves
+- timeline: basic keyframing
+- dope sheet: easy value adjustment for keyframes and better keyframe control 
+- graph editor: interpolation curves (advanced tweaking and visualization)
+
+### Graph editor
+[link](https://www.youtube.com/watch?v=zHlln3AzeMs&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=41)
+- graph editor is most advanced keyframe editor in blender
+- 
 
 ### Misc
 - to make custom control thingies, go in object mode, create a circle mesh (not UV sphere) and edit it in edit mode a shape you want. 
