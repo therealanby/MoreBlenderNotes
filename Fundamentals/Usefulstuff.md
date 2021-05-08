@@ -23,7 +23,7 @@ Topics:
 - [Timeline](#Timeline)
 - [Dope sheet](#Dope-Sheet)
 - [Graph editor](#Graph-Editor)
-- [Right click select](#Right-click-select)
+- [Sculpt](#Sculpt)
 - [Misc](#misc)
 
 ### UV Editing
@@ -401,9 +401,9 @@ Topics:
 - disable modifiers temporarily without removing them by clicking wrench icon on the left menu
 - some dope sheet and timeline features can be accessed here
 
-### R Click Select
-[link](https://www.youtube.com/watch?v=REn2dBBy2mY&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=43)
-- bruh
+### Sculpt
+[link](https://www.youtube.com/watch?v=TAGWu08oWAM&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=42)
+- 1:30
 
 ### Misc
 - to make custom control thingies, go in object mode, create a circle mesh (not UV sphere) and edit it in edit mode a shape you want. 
