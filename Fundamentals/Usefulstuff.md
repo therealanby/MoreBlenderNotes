@@ -21,8 +21,8 @@ Topics:
 - [Bone Layers and Groups](#Bone-layers-and-groups)
 - [Keyframes](#Keyframes)
 - [Timeline](#Timeline)
-- [Dope sheet](#Dope Sheet)
-- [Graph editor](#Graph Editor)
+- [Dope sheet](#Dope-Sheet)
+- [Graph editor](#Graph-Editor)
 - [Misc](#misc)
 
 ### UV Editing
