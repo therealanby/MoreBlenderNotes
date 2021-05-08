@@ -23,6 +23,7 @@ Topics:
 - [Timeline](#Timeline)
 - [Dope sheet](#Dope-Sheet)
 - [Graph editor](#Graph-Editor)
+- [Right click select](#Right-click-select)
 - [Misc](#misc)
 
 ### UV Editing
@@ -375,7 +376,34 @@ Topics:
 ### Graph editor
 [link](https://www.youtube.com/watch?v=zHlln3AzeMs&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=41)
 - graph editor is most advanced keyframe editor in blender
-- 
+- same set-up as dope sheet except replace dope sheet with graph editor
+- same as dope sheet but also allows viewing and editor of curves
+- when you change the type and interpolation, the curves will also change visually
+- on the left hand column, the area looks similar to the dope sheet where all properties have been assigned to channels
+- here, you can unselect curves of stuff and hide them using an option in the view menu
+- you can transform keyframes using g, s, and r which are similar to object transformation
+- each keyframe have a handle that can be used to manlipulate it
+- handles are made of three parts: two handle bars and the main body
+- the main body affects the location while the bars affect interpolation, length and rotation
+- transformation differs base on the type of the handle/keyframe
+- if you move a handle bar off the default position, the type will automatically be changed to free
+- interpolation greatly affects how the curves look
+- constant: repeat value and jumps to new value on new keyframes
+- linear: straight line connecting values
+- bezier: curved line connecting values
+- advanced: curve modifiers
+- non-destructive and powerful
+- arrow icon on right to open panel (press n)
+- one modifier: noise
+- this adds a shaking effect
+- dynamic adjustment
+- lots of options: start and end frame, amount of noise, fade, and more
+- disable modifiers temporarily without removing them by clicking wrench icon on the left menu
+- some dope sheet and timeline features can be accessed here
+
+### R Click Select
+[link](https://www.youtube.com/watch?v=REn2dBBy2mY&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=43)
+- bruh
 
 ### Misc
 - to make custom control thingies, go in object mode, create a circle mesh (not UV sphere) and edit it in edit mode a shape you want. 
