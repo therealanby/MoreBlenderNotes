@@ -404,9 +404,57 @@ Topics:
 ### Sculpt
 [link](https://www.youtube.com/watch?v=TAGWu08oWAM&list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&index=42)
 - 1:30
-
+- sculpting workspace
+- how to create quad-sphere:
+  - start with a cube
+  - sub-division surface modifier to a rate of 3+
+  - cast modifier (sphere) with a factor of 1
+  - apply sds and then cast
+  - shade smooth
+- setting sculpt mode to work with pen tablet -> (turn all of those pressure icons on)
+- you are dynamically adding, removing and moving the shape to affect the appearance in sculpt mode. On the other hand, you can also do this in edit mode but it's much more static
+- tool settings in top and side bar(press n for sidebar) (t for tool bar)
+- tools:
+  - brush/draw(default): pushes vertices outwards (hold ctrl for inwards) (hold shift to smooth things out) 
+  - f to change scale of brush
+  - shift-f for strength
+  - clay: same as brush but also flattens so it looks nicer
+  - clay strips: like clay but strips. Slightly less useful (raise roundness for better usage)
+  - layer: same as brush but has a setting for height limit
+  - inflate: individual normals are moved instead of brush direction. inflate/deflate effect
+  - blob: creates blobs
+  - crease: pulling vertices together or apart
+  - smooth: smooths vertices out (averages position) (loss of volume and detail)
+  - flatten: flattens
+  - fill: flattens but in one direction and up
+  - scrape: fill but down
+  - hol ctrl to enhance for flatter, fill and scrape
+  - plane offset to change where vertices meet
+  - pinch: push apart verts or push in
+  - grab: makes verts in your radius(cursor) move with your cursor
+  - snake hook: lets verts go and picks up more along the way (pulling out snake effect)
+  - thumb: similar to grab and snake but pushes verts sideways instead of toward a certain direction
+  - nudge: similar to thumb but it's the face is not flat and will be nudged along the surface of the mesh
+  - rotate: twist affected verts
+  - mask: will grey out a region and that region will not get affected or have the effect be reduced (ctrl to unmask)
+  - hide: will hide verts (also unaffected)
+  - annotate: annotation 
+- tools vs brushes. Tools are different things you can use to manlipulate mesh while brushes are presets of the tools you can make. 
+- color coding: 
+  - blue: simple adding/subtracting
+  - red: increaing/descreasing contrast
+  - yellow: grabbing behavior
+  - grey: hiding/masking geometry
+- you can use a texture as a brush
+- mirror option on top menu to the right (x, y, and z mirror)
+- change radial to something >1 and change mesh to see something cool
+- dynamic topology (dyntopo)
+- will tesselate changes to add/remove detail 
+- no worry for running out of geometry to sculpt on
+- remember to change resolution (reso of 3 sucks)
+- multi-resolution modifier for more geometry 
 ### Misc
 - to make custom control thingies, go in object mode, create a circle mesh (not UV sphere) and edit it in edit mode a shape you want. 
 - in bone properties, go to viewport display, custom shape, and select the object as that mesh. If it's too big or small, scale it to bone length 
 - alt-R and alt-G to reset in pose mode
-- 
+- normals are the ways vertices and faces are facing
