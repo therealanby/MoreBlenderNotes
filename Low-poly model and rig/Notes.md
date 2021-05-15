@@ -30,7 +30,8 @@
 - extrude twice for elbows
 - extrude and scale for other arm segment
 - extrude, scale up and extrude again for simple blocky hands
-- 
+- extrude from top of torso to start forming head
+- scale and grab inwards for neck base
 
 
 ## Hot keys
