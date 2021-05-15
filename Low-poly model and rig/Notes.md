@@ -23,6 +23,14 @@
 - extra: create a loop cut, slide it to where you want the pant edge to be, scale it for pants leg effect
 - upper right face on the side of the torso, select it
 - extrude it a little for the arms
+- scale down face
+- move it up so it somewhat matches with shoulder(not totally in-line. Just lined up with shoulder in a slanty way like a real shoulder)
+- extrude once for arms(should be a t-pose)
+- scale down arm
+- extrude twice for elbows
+- extrude and scale for other arm segment
+- extrude, scale up and extrude again for simple blocky hands
+- 
 
 
 ## Hot keys
