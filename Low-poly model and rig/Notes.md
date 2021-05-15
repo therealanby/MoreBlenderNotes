@@ -32,7 +32,7 @@
 - extrude, scale up and extrude again for simple blocky hands
 - extrude from top of torso to start forming head
 - scale and grab inwards for neck base
-
+- 8:11
 
 ## Hot keys
 - 1 on numpad to get good side view for mirror modeling
