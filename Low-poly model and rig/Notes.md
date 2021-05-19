@@ -56,7 +56,7 @@
 - 'a' to view uv on palette texture and scale it down to zero. (a, s, 0)
 - moving the dot to change color
 - now you can select colors for faces
-- 
+- 18:00
 
 ## Hot keys
 - 1 on numpad to get good side view for mirror modeling
