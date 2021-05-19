@@ -31,14 +31,43 @@
 - extrude and scale for other arm segment
 - extrude, scale up and extrude again for simple blocky hands
 - extrude from top of torso to start forming head
-- scale and grab inwards for neck base
-- 8:11
+- scale and grab/slide inwards for neck base
+- extrude for neck
+- extrude and scale for head
+- grab head outwards to make the base more square
+- grab head out more for cartoon bighead
+- extrude for rest of head
+- loop cut with # of cuts at 2
+- select edges at bottom and top of head to scale them down to make the head more detailed
+- grab the faces inwards for rounder head shape
+- edge select for more body detail
+- select three chest edges. grab them out in a way to make a belly
+- bring out side edge for waist
+- arch the back and bring the back shoulders up
+- belt: loop cut, scale out, loop cut below, scale out, scale/grab edges for additional detail, bring back that pointy vert at crotch
+- loop select belt and extrude along normals
+- head shrinking: box select in x-ray mode, scale down/up, and move down/up
+- color: download palette provided by video (very small image to keep file size down)
+- shading tab
+- drag palette into node shader editor and connect to base color
+- set interpolation from linear to closest
+- go to UV editing workspace
+- set viewport shading color to texture
+- 'a' to view uv on palette texture and scale it down to zero. (a, s, 0)
+- moving the dot to change color
+- now you can select colors for faces
+- 
 
 ## Hot keys
 - 1 on numpad to get good side view for mirror modeling
 - n for sidebar
 - shift-space for quick menu of tools (g for grab, r for rotate, s for scale)
+- alt-z for x-ray vision (useful for better view and selection of hidden things)
+- alt-click (face mode) for loop select (selects a loop of faces)
+- ctrl- + (numpad plus) for selection grow
 
 ## Tips
 - 2 units is a good size for a video game model
 - for bending parts of the mesh for the rig, have three or more lines for better bending
+- enable clipping in mirror mod so there are no gaps at reflection point
+- import palette as texture (node editor). Editing UV so that everything becomes a dot(scale to 0). Move dot around to select color. Select faces and moving the dot will change the face color
