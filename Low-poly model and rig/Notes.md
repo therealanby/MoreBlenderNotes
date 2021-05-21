@@ -56,7 +56,11 @@
 - 'a' to view uv on palette texture and scale it down to zero. (a, s, 0)
 - moving the dot to change color
 - now you can select colors for faces
-- 18:00
+- select face on side of the head. shift-d to duplicate. scale down into a base for an ear. Extrude for ear
+- select face on front of the head. go to modifiers and disable clipping. Scale down for eyes. 
+- loop-cut for pupils
+- e to extrude eyes
+- 19:50
 
 ## Hot keys
 - 1 on numpad to get good side view for mirror modeling
