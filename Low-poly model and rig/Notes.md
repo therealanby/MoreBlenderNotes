@@ -1,3 +1,4 @@
+# Modeling
 ## Setting things up
 - Nice add-on to have: auto mirror
 - one cube
@@ -60,7 +61,24 @@
 - select face on front of the head. go to modifiers and disable clipping. Scale down for eyes. 
 - loop-cut for pupils
 - e to extrude eyes
-- 19:50
+- hat: duplicate faces on head, enable clipping, scale up and model into however style you want
+- right-click, separate by selection to separate from person mesh
+- select bottom edges and press f to fill in a face
+- loop cut and extrude can be used for caps visors
+- inset to create faces to color
+- edge slide!
+- vertex slide!
+- customization: duplicate person body. hide the original body and hat
+- select linked and uv in final operations menu to select faces of same color
+- edge loop select to widen/tighten parts of the body 
+- loop-cut and inset for creating faces to color
+
+# Rigging
+## Setup
+- Low-poly model
+
+## Steps
+- d
 
 ## Hot keys
 - 1 on numpad to get good side view for mirror modeling
@@ -69,9 +87,14 @@
 - alt-z for x-ray vision (useful for better view and selection of hidden things)
 - alt-click (face mode) for loop select (selects a loop of faces)
 - ctrl- + (numpad plus) for selection grow
+- select verts/edges and press f to fill (create new face)
+- 
 
 ## Tips
 - 2 units is a good size for a video game model
 - for bending parts of the mesh for the rig, have three or more lines for better bending
 - enable clipping in mirror mod so there are no gaps at reflection point
 - import palette as texture (node editor). Editing UV so that everything becomes a dot(scale to 0). Move dot around to select color. Select faces and moving the dot will change the face color
+- viewport shading: backface culling makes the back of a face invisible
+- you can fill verts/edges by going into vertices/(new edge/face from vertices)
+- edge/edge slide for sliding an edge along an edge during grab operation
