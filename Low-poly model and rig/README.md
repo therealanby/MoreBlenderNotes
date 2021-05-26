@@ -1,4 +1,6 @@
-[tutorial link](https://www.youtube.com/watch?v=eBOcbYHexAM)
+[model link](https://www.youtube.com/watch?v=eBOcbYHexAM)
+
+[rigging link](https://www.youtube.com/watch?v=XkiWBSSuxLw)
 
 Notes and maybe a file
 
