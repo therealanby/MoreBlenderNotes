@@ -78,7 +78,10 @@
 - Low-poly model
 
 ## Steps
-- d
+- front-view, have nothing selected, shift-space, add armature/bone
+- edit mode for armature
+- move head to crotch area and move tail to the top of the pants
+- 
 
 ## Hot keys
 - 1 on numpad to get good side view for mirror modeling
@@ -87,6 +90,7 @@
 - alt-z for x-ray vision (useful for better view and selection of hidden things)
 - alt-click (face mode) for loop select (selects a loop of faces)
 - ctrl- + (numpad plus) for selection grow
+- shift-c to reset 3D cursor
 - select verts/edges and press f to fill (create new face)
 - 
 
@@ -98,3 +102,4 @@
 - viewport shading: backface culling makes the back of a face invisible
 - you can fill verts/edges by going into vertices/(new edge/face from vertices)
 - edge/edge slide for sliding an edge along an edge during grab operation
+- enable in front in bone-properties/viewport-display for easier bone editing
