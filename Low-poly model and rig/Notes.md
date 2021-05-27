@@ -81,10 +81,35 @@
 - front-view, have nothing selected, shift-space, add armature/bone
 - edit mode for armature
 - move head to crotch area and move tail to the top of the pants
-- 
+- press e and z to extrude on z-axis. do this twice to create a spine
+- rename: root, spine1, spine2, head
+- extrude from head of head bone for shoulder bone and arms (do this for each arm)
+- move elbow back a bit so it's not straight-locked (IK-solver)
+- rename bones
+- extrude one bone from the head of the root and move it to the left leg
+- make leg (3 bones) and make sure the knee joint is bent forward a little
+- rename (upperLeg.L, lowerLeg.L, foot.L)
+- armature/bone roll/recalculate roll (shift-n)/view axis (doesn't seem to do much but will help later) (will help know which way to fold bones)
+- time to set up inverse kinematics before mirroring
+- extrude from knee and heel and clear their parents
+- move them out and rename them IK pole bone (inverse-kinematic pole bone) (purpose to to know where to aim the joints) 
+- deselect deform of the pole in bone properties
+- go into pose mode, and go into bone constraints for the lower leg bone
+- add inverse kinematics
+- select the heel IK bone as target and knee IK bone as pole target
+- in edit mode, connect upper leg to root by select bone (select root last) and create parent(ctrl-p) as offset
+- set chain length to 2 in IK and set pole angle to 90 degrees
+- what has been done: if you move the target IK bone, the leg moves like a leg(knee bends correctly). If you move the root, leg will also move and bend correctly
+- click on foot bone, go to bone-properties/relations and disable inherit rotation. The foot won't rotate now when the other bones are moved. 
+- still on foot bone, add copy rotation constraint and copy it to the IKTarget bone. set target and owner to local space and invert z and y axis
+- edit mode, select all, armature/symmetrize (make sure bones are name with .L or \_L suffix so it can create a corresponding .R)  
+- select character and shift-select armature. go to object/parent/auto-weight (armature deform) or ctrl-p, armature deform-auto-weights
+- eyes are weird
+- 14:00
 
 ## Hot keys
-- 1 on numpad to get good side view for mirror modeling
+- 1 on numpad to get good front view for mirror modeling
+- 3 on numpad for side view
 - n for sidebar
 - shift-space for quick menu of tools (g for grab, r for rotate, s for scale)
 - alt-z for x-ray vision (useful for better view and selection of hidden things)
@@ -92,7 +117,9 @@
 - ctrl- + (numpad plus) for selection grow
 - shift-c to reset 3D cursor
 - select verts/edges and press f to fill (create new face)
-- 
+- f2 - rename
+- select bones and press shift-n to recalculate rolls
+
 
 ## Tips
 - 2 units is a good size for a video game model
