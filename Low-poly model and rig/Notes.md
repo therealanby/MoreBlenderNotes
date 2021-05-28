@@ -112,6 +112,10 @@
 - set and assing to active group: head
 - hat: add child of constraint and assign it to the armature and head group (click set inverse to set right position)
 
+# Animation
+## Setting things up
+## Steps
+
 ## Hot keys
 - 1 on numpad to get good front view for mirror modeling
 - 3 on numpad for side view
