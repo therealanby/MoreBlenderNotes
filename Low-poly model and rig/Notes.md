@@ -104,8 +104,13 @@
 - still on foot bone, add copy rotation constraint and copy it to the IKTarget bone. set target and owner to local space and invert z and y axis
 - edit mode, select all, armature/symmetrize (make sure bones are name with .L or \_L suffix so it can create a corresponding .R)  
 - select character and shift-select armature. go to object/parent/auto-weight (armature deform) or ctrl-p, armature deform-auto-weights
-- eyes are weird
-- 14:00
+- eyes are weird and some parts may also bend weirdly
+- automatic weight applied weights from the verts of the mesh to the armature
+- in edit mode, in the context menu(hotkey n) after selecting a vertex, you can edit vertex weight in item tab
+- you should probably use weight paint mode
+- remove eye verts (select linked) in vert/vert-groups/remove-all
+- set and assing to active group: head
+- hat: add child of constraint and assign it to the armature and head group (click set inverse to set right position)
 
 ## Hot keys
 - 1 on numpad to get good front view for mirror modeling
