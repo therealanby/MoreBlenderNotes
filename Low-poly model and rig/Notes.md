@@ -114,8 +114,27 @@
 
 # Animation
 ## Setting things up
-## Steps
+- animation workspace
+- viewport shading: texture, shadow, cavity(both) (sliders all the way up) (crisper mesh)
+- rig
+- armature set to x-ray for easier posing
+- dope-sheet to action editor
 
+## Steps
+- **Idle Animation**
+- create new action and name it TPose
+- lower arms
+- lower root so that knees are a little bent
+- adjust knees a bit
+- adjust feet a bit
+- this is frame 0/1 (i prefer to start from 0)
+- move to frame 20
+- adjust root up a little 
+- move shoulders up a little and arms down to account for shoulder movement
+- optional: rotate the spine bones a little
+- duplicate keyframes from frame 0 to frame 40
+- 7:50
+- 
 ## Hot keys
 - 1 on numpad to get good front view for mirror modeling
 - 3 on numpad for side view
@@ -139,3 +158,5 @@
 - you can fill verts/edges by going into vertices/(new edge/face from vertices)
 - edge/edge slide for sliding an edge along an edge during grab operation
 - enable in front in bone-properties/viewport-display for easier bone editing
+- number your action frames(animation) so they appear alphabetically in programs
+- end one frame before actual keyframe so looping looks nicer
