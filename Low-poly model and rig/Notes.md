@@ -133,7 +133,10 @@
 - move shoulders up a little and arms down to account for shoulder movement
 - optional: rotate the spine bones a little
 - duplicate keyframes from frame 0 to frame 40
-- 7:50
+- cyclic movements (predict motion curves)
+- select all keyframes and go to channel/extrapolation mode (shift-e) and make cyclic
+- new animation named run. duplicate idle
+- alt-g and alt-r to reset pose
 - 
 ## Hot keys
 - 1 on numpad to get good front view for mirror modeling
