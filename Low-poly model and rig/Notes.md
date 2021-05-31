@@ -138,7 +138,8 @@
 - new animation named run. duplicate idle
 - alt-g and alt-r to reset pose
 - get a run cycle reference and start making key frames based off the reference you chose
-- 16:30
+- that's pretty much it. adjust other bones to your liking. 
+
 ## Hot keys
 - 1 on numpad to get good front view for mirror modeling
 - 3 on numpad for side view
